@@ -1,0 +1,60 @@
+/* Hallmark · genre: modern-minimal · macrostructure: Narrative Workflow · theme: custom
+ * vibe: "bright, considered, playful payment recovery" · nav: N5 · footer: Ft5 · hero: H2
+ * display: Space Grotesk · body: Geist · axes: light / geometric-sans / chromatic-yellow
+ * audience: merchants · use: review and approve recovery · context: inferred from explicit brief
+ * User overrides: multi-accent palette; GSAP scroll sequence. No imagery or invented proof metrics.
+ */
+/* Hallmark · pre-emit critique: P5 H4 E4 S5 R4 V5.
+ * Responsive checks: 320 / 375 / 414 / 768 / 1440. Automated axe checks passed.
+ * User-directed multi-accent and GSAP exceptions; not a blanket 58-gate certification.
+ */
+:root {
+  --color-paper: oklch(98.3% 0.007 88);
+  --color-surface: oklch(99.6% 0.003 88);
+  --color-paper-2: oklch(95.4% 0.01 85);
+  --color-ink: oklch(25% 0.072 266);
+  --color-ink-2: oklch(34% 0.06 265);
+  --color-muted: oklch(48% 0.025 265);
+  --color-rule: oklch(87% 0.014 85);
+  --color-rule-strong: oklch(65% 0.024 265);
+  --color-accent: oklch(91% 0.185 99);
+  --color-accent-ink: var(--color-ink);
+  --color-yellow-soft: oklch(96% 0.085 98);
+  --color-orange: oklch(69% 0.19 42);
+  --color-orange-soft: oklch(94% 0.055 65);
+  --color-orange-ink: oklch(40% 0.1 43);
+  --color-red: oklch(48% 0.18 27);
+  --color-red-soft: oklch(95% 0.032 25);
+  --color-pink: oklch(85% 0.105 350);
+  --color-pink-soft: oklch(96% 0.027 346);
+  --color-purple: oklch(52% 0.16 292);
+  --color-purple-soft: oklch(94% 0.035 293);
+  --color-blue: oklch(48% 0.16 265);
+  --color-blue-soft: oklch(95% 0.025 260);
+  --color-focus: oklch(49% 0.2 273);
+  --color-overlay: oklch(20% 0.04 266 / 0.34);
+  --color-shadow: oklch(25% 0.04 266 / 0.08);
+  --color-on-dark-muted: oklch(82% 0.026 265);
+  --font-display: "Space Grotesk Variable", "Arial", sans-serif;
+  --font-body: "Geist Variable", "Arial", sans-serif;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 9rem;
+  --page-gutter: clamp(1rem, 4vw, 4rem);
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-short: 200ms;
+  --dur-long: 420ms;
+  --z-base: 1;
+  --z-raised: 10;
+  --z-sticky: 200;
+  --z-modal: 400;
+  --z-toast: 500;
+}
