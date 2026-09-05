@@ -6,6 +6,8 @@ The new `frontend/` contains a responsive landing page, GSAP workflow, and an AP
 
 See [the complete project/build guide](outputs/MendPay-Project-Guide.md) for the user journey, architecture, setup, low-level failure modes, and production gaps. Existing Streamlit functionality is preserved; its session state is separate from the studio workspace.
 
+For a clean recording environment, prepared test cases, hardcoded-value audit, architecture diagrams, and a timed five-minute script, use the [video demo runbook](docs/VIDEO_DEMO_RUNBOOK.md).
+
 
 **Revenue recovery without duplicate charges.** MendPay is a Razorpay Buildathon Track 03 prototype that handles the race between a `payment.failed` event, late authorization of the original payment, and a second recovery payment.
 

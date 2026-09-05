@@ -1,0 +1,14 @@
+{
+  "event_id": "video_custom_001",
+  "event_type": "payment.failed",
+  "merchant_id": "video_merchant",
+  "order_id": "order_video_001",
+  "payment_id": "pay_video_original_001",
+  "amount": 499900,
+  "currency": "INR",
+  "status": "failed",
+  "error_source": "bank",
+  "error_step": "payment_authentication",
+  "error_reason": "network_error",
+  "error_description": "The bank did not respond before timeout."
+}
